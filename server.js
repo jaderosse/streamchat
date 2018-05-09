@@ -4,8 +4,6 @@ var path = require('path');
 var pug = require('pug');
 var app = express();
 
-// var  = fs.createStreamSample(TearsOfSteel.mp4, {start, end});
-
 app.use(express.static(__dirname + '/public'));
 app.set('view engine', 'pug');
 
