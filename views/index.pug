@@ -1,6 +1,8 @@
 html
-  head
-  	link(href='/style/css')
-    title= 'Fish'
-  body
-    h1= 'Streaming the Streamy Stream'
+	head
+		link(rel='stylesheet' href='/style.css')
+		title= 'Fish'
+	body
+		h1= 'Streaming the Streamy Stream'
+		video(controls)
+			source(src='http://localhost:3000/vid' type='video/mp4')
